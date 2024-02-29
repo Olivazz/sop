@@ -1,0 +1,49 @@
+cd ..
+mkdir Backup
+dir
+cd Atividade01
+copy /y Nota01.txt Backup
+copy Nota01.txt Backup
+copy Nota01.txt C:\Users\Aluno\Desktop\Backup
+copy Nota02.txt C:\Users\Aluno\Desktop\Backup
+cd ..
+Atividade01
+cd Atividade01
+del Nota01.txt
+del Nota02.txt
+cls
+dir
+cd ..
+cls
+dir
+cd Backup
+tree
+cls
+cd ..
+cls
+ren atividade01 trabalhos
+dir
+md documentos
+dir
+cd documentos
+md projetos
+md pessoais
+dir
+cd ..
+dir
+md backup
+move
+move trabalhos documentos
+backup documentos
+move backup documentos
+ren pessoais lazer
+dir
+cd documentos
+dir
+ren pessoais lazer
+dir
+cd lazer
+echo Alemanha \n Russia \n Holanda \n Suecia \n Franca >> viagem.txt
+cd ..
+dir
+doskey /history >> mateus oliveira.txt
