@@ -15,7 +15,7 @@ cd Lazer
 echo Fran‡a >> Viagem.txt
 echo Canad  >> Viagem.txt
 echo Franca > Viagem.txt
-echo Canad  >> Viagem.txt
+echo Canada  >> Viagem.txt
 echo Noruega >> Viagem.txt
 echo Estados Unidos >> Viagem.txt
 echo Espanha >> Viagem.txt
@@ -28,6 +28,6 @@ echo Espanha >> Viagem.txt
 dir C:\Users\Aluno\Desktop\Documentos\Lazer
 dir C:\Users\Aluno\Desktop\Documentos
 cd ..
-doskey /history >> Nicolas.txt
+doskey /history >> Mateus.txt
 tree /f
-doskey /history > Nicolas.txt
+doskey /history > Mateus.txt
